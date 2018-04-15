@@ -21,7 +21,8 @@ class PortfoliosController < ApplicationController
 
   def edit
     @portfolio_item = Portfolio.find(params[:id])
-  end
+  en
+
 
   def update
     @portfolio_item = Portfolio.find(params[:id])
@@ -43,7 +44,8 @@ class PortfoliosController < ApplicationController
     @portfolio_item = Portfolio.find(params[:id])
     @portfolio_item.destroy
     respond_to do |format|
-      format.html { redirect_to portfolios_url, notice: 'Record was removed.' }
+      format.html { redirect_to portfolios_url, notice: 'Record
+ was removed.' }
     end
   end
 
