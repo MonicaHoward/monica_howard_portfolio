@@ -3,6 +3,10 @@ class PortfoliosController < ApplicationController
     @portfolio_items = Portfolio.all
   end
 
+  def react
+    @angular_portfolio_items = Portfolio.react
+  end
+
   def new
     @portfolio_item = Portfolio.new
   end
@@ -21,8 +25,7 @@ class PortfoliosController < ApplicationController
 
   def edit
     @portfolio_item = Portfolio.find(params[:id])
-  en
-
+  end
 
   def update
     @portfolio_item = Portfolio.find(params[:id])
@@ -41,13 +44,17 @@ class PortfoliosController < ApplicationController
   end
 
   def destroy
+    # Perform the lookup
     @portfolio_item = Portfolio.find(params[:id])
+
+    # Destroy/delete the record
     @portfolio_item.destroy
+
+    # Redirect
     respond_to do |format|
-      format.html { redirect_to portfolios_url, notice: 'Record
- was removed.' }
+      format.html { redirect_to portfolios_url, notice: 'Record was removed.' }
     end
   end
 
-
 end
+
