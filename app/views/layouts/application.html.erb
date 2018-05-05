@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= @page_title %></title>
-    <%= csrf_meta_tags %>
+<head>
+  <title><%= @page_title %></title>
+  <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <meta name="keywords" content="<%= @seo_keywords %>" />
 
-  <body>
-   <p class="notice"><%= notice %></p>
-   <p class="alert"><%= alert %></p>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 
 <%= render "shared/nav", location: 'top' %>
 
- <%= login_helper %>
+<%= login_helper %>
 
-  <%= yield %>
+<%= yield %>
 
-  <% if session[:source] %>
-    <p>Thanks for visiting me from <%= session[:source] %> </p>
-  <% end %>
-
-  </body>
+<%= source_helper("application") %>
+</body>
 </html>
