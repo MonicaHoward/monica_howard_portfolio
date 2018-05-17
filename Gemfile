@@ -56,3 +56,6 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'bootstrap', '~> 4.1.1'
 gem 'jquery-rails'
+
+gem 'monica_howard_view_tool', git: 'https://github.com/MonicaHoward/monica_howard_view_tool'
+gem 'petergate', '~> 1.8', '>= 1.8.1'
