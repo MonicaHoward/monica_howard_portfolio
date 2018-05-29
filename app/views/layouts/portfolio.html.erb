@@ -12,26 +12,21 @@
 </head>
 
 <body class="text-center">
-<!--START OF NAVIGATION-->
-  <%= render 'shared/portfolio_nav' %>
-<!--END OF NAVIGATION-->
 
-<main role="main">
+    <%= render 'shared/portfolio_nav' %>
+    <main role="main">
+      <%= render 'shared/portfolio_jumbotron' unless logged_in?(:site_admin) %>
 
-  <%= render 'shared/portfolio_jumbotron' %>
+      <%= login_helper 'style' %>
 
+      <%= yield %>
 
-  <%= login_helper 'style' %>
+    </main>
 
-  <%= yield %>
+    <%= render "shared/portfolio_footer" %>
 
-
-
-</main>
-
-  <%= render "shared/portfolio_footer" %>
-
-<%= source_helper("application") %>
+    <%= source_helper("application") %>
+  </div>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
