@@ -59,3 +59,5 @@ gem 'jquery-rails'
 
 gem 'monica_howard_view_tool', git: 'https://github.com/MonicaHoward/monica_howard_view_tool'
 gem 'petergate', '~> 1.8', '>= 1.8.1'
+
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
