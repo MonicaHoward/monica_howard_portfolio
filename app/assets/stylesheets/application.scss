@@ -134,6 +134,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 //CUSTOM CSS
 
+h1, h2, h3, h4, h5, h6, p, a {
+  color: #333333;
+  font-family: 'Jura';
+}
 #background {
   position: fixed;
   top: 50%;
@@ -146,4 +150,16 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateX(-50%) translateY(-50%);
   background: img-url("bg.mp4") no repeat;
   background-size: cover;
+}
+.head-title {
+  font-family: 'Jura';
+  font-weight: 600;
+}
+.skills {
+  font-family: 'Jura';
+  font-weight: 300;
+}
+.nav-barr {
+  background: rgba(220, 247, 220, 0.4);
+  margin: 0 !important;
 }
