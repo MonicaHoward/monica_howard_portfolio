@@ -135,7 +135,6 @@ h1, h2, h3, h4, h5, h6 {
 //CUSTOM CSS
 
 h1, h2, h3, h4, h5, h6, p, a {
-  color: #333333;
   font-family: 'Jura';
 }
 #background {
@@ -151,20 +150,35 @@ h1, h2, h3, h4, h5, h6, p, a {
   background: img-url("bg.mp4") no repeat;
   background-size: cover;
 }
-.head-title {
-  font-family: 'Jura';
-  font-weight: 600;
+.main-frame {
+  border: 5px solid #FFF;
+  width: 90vw;
+  height: 90vh;
+  margin-top: 3%;
 }
-.skills {
-  font-family: 'Jura';
-  font-weight: 300;
+nav {
+  float: left;
 }
-.nav-barr {
-  background: rgba(220, 247, 220, 0.4);
+.logo {
+  background: #FFF;
+  border: none;
+  border-radius: 0;
+  width: 6rem;
+  height: 6rem;
+  margin: -5px;
 }
-.home-page {
-  margin-top: 5%;
+.app-link {
+  background: none;
+  border: 5px solid #FFF;
+  border-radius: 0;
+  width: 6rem;
+  height: 6rem;
+  margin: -5px;
 }
-.home-main {
-  background: rgba(220, 247, 220, 0.4);
+.right-nav {
+  float: right;
 }
+.app-login {
+  float: right;
+}
+
