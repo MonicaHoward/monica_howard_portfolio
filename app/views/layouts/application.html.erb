@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
     <meta name="keywords" content="<%= @seo_keywords %>" />
-
-    <link href="blog.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -29,24 +25,26 @@
       %>
       <div class="main-frame">
         <nav class="card-group-vertical">
-          <div class="card logo">
+          <div class="card block-logo">
             <div class="card-body">
-              <h5 class="card-title">MH</h5>
+              <h5 class="card-title">M</h5>
+              <h5 class="card-title">H</h5>
             </div>
           </div>
-          <div class="card app-link">
+          <div class="card link-box">
             <div class="card-body">
-              <h5 class="card-title">About Me</h5>
+              <%= link_to "About", about_me_path, class: "app-link"%>
+              <!--<p class="card-title app-link">About</p>-->
             </div>
           </div>
-          <div class="card app-link">
+          <div class="card link-box">
             <div class="card-body">
-              <h5 class="card-title">Contact</h5>
+              <%= link_to "Contact", contact_path, class: "app-link"%>
             </div>
           </div>
-          <div class="card app-link">
+          <div class="card link-box">
             <div class="card-body">
-              <h5 class="card-title">Portfolio</h5>
+              <%= link_to "My Work", portfolios_path, class: "app-link"%>
             </div>
           </div>
           <!--<span class="logo">-->
@@ -56,7 +54,7 @@
             <!--<%= link_to "Home", root_path, class: "nav-link" %>-->
           <!--</span>-->
           <!--<span class="nav-link">-->
-            <!--<%= link_to "About Me", about_me_path, class: "nav-link" %>-->
+            <!--<%= link_to "About", about_me_path, class: "nav-link" %>-->
           <!--</span>-->
           <!--<span class="nav-link">-->
             <!--<%= link_to "Contact", contact_path, class: "nav-link" %>-->

@@ -1,7 +1,7 @@
 @import "bootstrap";
 @import "pages";
 @import "contact";
-
+@import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline|Bungee+Shade');
 
 
 /* stylelint-disable selector-list-comma-newline-after */
@@ -107,35 +107,34 @@ h1, h2, h3, h4, h5, h6 {
 .blog-pagination > .btn {
   border-radius: 2rem;
 }
-
-/*
- * Blog posts
- */
-.blog-post {
-  margin-bottom: 4rem;
-}
-.blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
-}
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
-}
-
-/*
- * Footer
- */
-.blog-footer {
-  padding: 2.5rem 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
-}
-.blog-footer p:last-child {
-  margin-bottom: 0;
-}
+//
+///*
+// * Blog posts
+// */
+//.blog-post {
+//  margin-bottom: 4rem;
+//}
+//.blog-post-title {
+//  margin-bottom: .25rem;
+//  font-size: 2.5rem;
+//}
+//.blog-post-meta {
+//  margin-bottom: 1.25rem;
+//  color: #999;
+//}
+///*
+// * Footer
+// */
+//.blog-footer {
+//  padding: 2.5rem 0;
+//  color: #999;
+//  text-align: center;
+//  background-color: #f9f9f9;
+//  border-top: .05rem solid #e5e5e5;
+//}
+//.blog-footer p:last-child {
+//  margin-bottom: 0;
+//}
 //CUSTOM CSS
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -162,22 +161,43 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 nav {
   float: left;
+  text-align: center;
+
 }
-.logo {
+.block-logo {
   background: #FFF;
   border: none;
   border-radius: 0;
-  width: 6rem;
-  height: 6rem;
+  width: 8rem;
+  height: 12rem;
   margin: -1px;
 }
-.app-link {
+.block-logo h5 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 4em;
+}
+h5:nth-child(2) {
+  margin-top: -30%;
+}
+.link-box {
   background: none;
   border: 1px solid #FFF;
   border-radius: 0;
-  width: 6rem;
-  height: 6rem;
-  margin: -1px;
+  width: 8rem;
+  height: 8rem;
+  margin-left: -1px;
+}
+.app-link {
+  color: #FFF;
+  font-family: 'Bungee', cursive;
+  line-height: 5;
+  text-align: center;
+}
+.app-link:a {
+  color: pink;
+}
+.app-link:hover {
+  color: gray;
 }
 .right-nav {
   float: right;
@@ -189,4 +209,3 @@ nav {
   background: #FFF;
   border: none;
 }
-@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
