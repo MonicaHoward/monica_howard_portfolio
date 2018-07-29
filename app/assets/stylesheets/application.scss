@@ -1,5 +1,5 @@
 @import "bootstrap";
-@import "pages";
+@import "home";
 @import "contact";
 @import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline|Bungee+Shade');
 
@@ -176,7 +176,7 @@ nav {
   font-family: 'Bungee Shade', cursive;
   font-size: 4em;
 }
-h5:nth-child(2) {
+.h {
   margin-top: -30%;
 }
 .link-box {
