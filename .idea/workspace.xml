@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7b0d5a5-1a74-4c63-b905-a093f7af7d27" name="Default" comment="Adds settings to the database.yml file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +18,8 @@
           <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+                <state relative-caret-position="170">
+                  <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -44,7 +42,7 @@
           <file leaf-file-name="application.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="339">
+                <state relative-caret-position="581">
                   <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
                   <folding />
                 </state>
@@ -120,8 +118,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/pages.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/contact.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -395,7 +393,7 @@
       <workItem from="1528336600734" duration="16328000" />
       <workItem from="1532488316708" duration="11367000" />
       <workItem from="1532560927346" duration="438000" />
-      <workItem from="1532567222631" duration="16005000" />
+      <workItem from="1532567222631" duration="16202000" />
     </task>
     <task id="LOCAL-00001" summary="Adds settings to the database.yml file">
       <created>1522525785453</created>
@@ -408,7 +406,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165676000" />
+    <option name="totallyTimeSpent" value="165873000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -840,18 +838,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        <state relative-caret-position="581">
+          <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+        <state relative-caret-position="170">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding />
         </state>
       </provider>
